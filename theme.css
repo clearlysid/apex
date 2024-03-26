@@ -1,3 +1,86 @@
+/* Hides vault name */
+.nav-folder.mod-root > .nav-folder-title {
+	display: none;
+}
+
+/* Hide tabs */
+.mod-root .workspace-tabs .workspace-tab-header-container {
+	display: none;
+}
+
+/* Hide sidebar buttons */
+.sidebar-toggle-button.mod-right,
+.sidebar-toggle-button.mod-left {
+	display: none;
+}
+
+.mod-macos.is-hidden-frameless:not(.is-popout-window)
+	.workspace
+	.workspace-tabs.mod-top-right-space
+	.workspace-tab-header-container {
+	padding-right: 4px;
+}
+
+/* Hide ribbon */
+.mod-macos.is-hidden-frameless:not(.is-fullscreen):not(.is-popout-window)
+	.workspace-tabs.mod-top-left-space
+	.workspace-tab-header-container {
+	padding-left: calc(var(--frame-left-space) + var(--ribbon-width));
+}
+
+.workspace-ribbon.mod-left {
+	display: none;
+}
+.workspace-ribbon.mod-right {
+	visibility: hidden;
+	position: absolute;
+}
+.workspace-split.mod-right-split {
+	margin-right: 0;
+}
+.workspace-split.mod-left-split {
+	margin-left: 0;
+}
+
+/* Hide meta */
+.markdown-reading-view .metadata-container {
+	display: none;
+}
+
+/* Hide scrollbars */
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide tooltips */
+.tooltip {
+	display: none;
+}
+
+/* Hide search suggestions */
+.suggestion-container.mod-search-suggestion {
+	display: none;
+}
+
+/* Hide search count flair */
+.tree-item-flair:not(.tag-pane-tag-count) {
+	display: none;
+}
+
+/* Hide instructions */
+.prompt-instructions {
+	display: none;
+}
+
+/* Hide file nav header */
+.workspace-leaf-content[data-type="file-explorer"] .nav-header {
+	display: none;
+}
+
+/* Hide left panel header icons */
+.workspace-tab-header-container-inner {
+	display: none;
+}
 body {
 	--h1-size: var(--font-text-size);
 	--h2-size: var(--font-text-size);
@@ -144,4 +227,9 @@ input[type="checkbox"]:checked::after {
 }
 .ͼ1 .cm-cursor {
 	display: none !important;
+}
+/* Desaturate and fade status bar */
+.status-bar {
+	filter: saturate(0);
+	opacity: 0.5;
 }
