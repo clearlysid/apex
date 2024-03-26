@@ -28,7 +28,7 @@ module.exports = function (grunt) {
 		concat_css: {
 			dist: {
 				files: {
-					'theme.css': ['src/index.css']
+					'theme.css': ['src/*.css']
 				}
 			}
 		},
