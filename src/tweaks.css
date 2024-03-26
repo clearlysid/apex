@@ -1,0 +1,5 @@
+/* Desaturate and fade status bar */
+.status-bar {
+	filter: saturate(0);
+	opacity: 0.5;
+}
