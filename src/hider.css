@@ -78,6 +78,6 @@
 }
 
 /* Hide left panel header icons */
-.workspace-tab-header-container-inner {
+.mod-top-left-space .workspace-tab-header-container-inner {
 	display: none;
 }
