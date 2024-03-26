@@ -34,6 +34,7 @@ body {
 	--link-unresolved-opacity: 1;
 	--list-marker-color: var(--text-normal);
 	--titlebar-background-focused: var(--background-secondary);
+	--modal-background: var(--background-secondary);
 }
 .theme-dark,
 .theme-light {
@@ -60,7 +61,7 @@ body {
 	--text-highlight-color: var(--text-normal);
 }
 .theme-dark {
-	--background-primary: #1b1b1b;
+	--background-primary: transparent;
 	--background-secondary: #141414;
 	--text-normal: #ccc;
 	--text-muted: #707070;
@@ -152,4 +153,16 @@ input[type="checkbox"]:checked::after {
 }
 .ͼ1 .cm-cursor {
 	display: none !important;
+}
+
+.prompt {
+	background-color: var(--background-secondary);
+}
+
+.vertical-tab-content {
+	background-color: var(--background-secondary);
+}
+
+.view-header-title-container {
+	-webkit-app-region: drag;
 }
