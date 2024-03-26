@@ -13,7 +13,7 @@ body {
 	--h6-line-height: 1.7;
 	--vault-name-font-weight: 600;
 	--file-line-width: min(800px, 98vw);
-	--file-margins: 64px 32px 32px 32px;
+	--file-margins: 48px 32px 32px 32px;
 	--h1-color: var(--text-normal);
 	--link-color: var(--text-normal);
 	--text-faint: var(--text-muted);
