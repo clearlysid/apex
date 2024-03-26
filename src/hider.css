@@ -1,4 +1,4 @@
-/* Hides vault name */
+/* Hide vault name */
 .nav-folder.mod-root > .nav-folder-title {
 	display: none;
 }
