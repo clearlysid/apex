@@ -81,3 +81,8 @@
 .mod-top-left-space .workspace-tab-header-container-inner {
 	display: none;
 }
+
+/* Hide nav buttons */
+.view-header-nav-buttons {
+	display: none;
+}
