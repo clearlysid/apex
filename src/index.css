@@ -37,8 +37,10 @@ body {
 }
 .theme-dark,
 .theme-light {
-	--font-text: "iA Writer Duo", var(--font-text-override), "iA Writer Duo",
-		var(--font-interface);
+	--font-text: "Geist Mono", var(--font-text-override), var(--font-interface);
+	--h1-font: "Geist";
+	--h2-font: "Geist";
+	--h3-font: "Geist";
 	--line-height-normal: 1.7;
 	--link-decoration: underline;
 	--link-unresolved-decoration-color: var(--text-muted);
