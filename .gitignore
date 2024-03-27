@@ -15,6 +15,3 @@ node_modules
 .DS_Store
 
 .env
-
-# This should be compiled by compiler
-theme.css
