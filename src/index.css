@@ -14,10 +14,16 @@ body {
 	--h6-line-height: 1.7;
 	--list-marker-color: var(--text-normal);
 	--modal-background: var(--background-secondary);
-	--font-text: "Geist Mono";
-	--h1-font: "Geist";
-	--h2-font: "Geist";
-	--h3-font: "Geist";
+	--font-text: "Geist Mono", ui-monospace, Menlo, Monaco, "Cascadia Mono",
+		"Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace",
+		"Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New",
+		monospace;
+	--h1-font: "Geist", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", Arial, sans-serif;
+	--h2-font: "Geist", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", Arial, sans-serif;
+	--h3-font: "Geist", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		"Roboto", Arial, sans-serif;
 	--line-height-normal: 1.7;
 	--link-decoration: underline;
 	--link-unresolved-decoration-color: var(--text-muted);
