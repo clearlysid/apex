@@ -27,10 +27,8 @@ body {
 	--checkbox-color: transparent;
 	--checkbox-color-hover: transparent;
 	--checkbox-marker-color: transparent;
-}
-
-.cm-header {
-	letter-spacing: 0.002em;
+	--divider-color: transparent;
+	--workspace-background-translucent: rgba(var(--mono-rgb-0), 0.4);
 }
 
 /* Basic Theme Colours */

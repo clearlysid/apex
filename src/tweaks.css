@@ -5,7 +5,16 @@
 	border: none;
 }
 
-/* Link Styling */
+/* Header padding and letter-spacing */
+.cm-header {
+	letter-spacing: 0.002em;
+}
+
+.HyperMD-header-3 {
+	padding-bottom: 0.4em !important;
+}
+
+/* Link styling */
 .cm-s-obsidian span.cm-hmd-internal-link:hover,
 .cm-s-obsidian span.cm-url,
 .cm-underline,
@@ -16,7 +25,7 @@
 	text-underline-offset: 0.3em;
 }
 
-/* Checkbox Styling */
+/* Checkbox styling */
 input[type="checkbox"] {
 	border: 0;
 }
@@ -44,7 +53,7 @@ input[type="checkbox"]:checked::after {
 	color: var(--checklist-done-color);
 }
 
-/* List Item Styling */
+/* List item styling */
 .list-bullet {
 	color: var(--list-marker-color);
 }
@@ -61,7 +70,7 @@ input[type="checkbox"]:checked::after {
 	color: var(--list-marker-color);
 }
 
-/* Make Modal Backgrounds Opaque */
+/* Opaque modal backgrounds */
 .prompt {
 	background-color: var(--background-secondary);
 }
@@ -70,7 +79,7 @@ input[type="checkbox"]:checked::after {
 	background-color: var(--background-secondary);
 }
 
-/* Titlebar Draggability Fix */
+/* Fix titlebar draggability */
 .view-header-title-container {
 	-webkit-app-region: drag;
 }
