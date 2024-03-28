@@ -1,5 +1,6 @@
 /* 
 Minimal Theme compiler for Obsidian
+Tweaked for Apex by @clearlysid
 
 MIT License
 Copyright (c) 2020-2021 Stephan Ango (@kepano)
